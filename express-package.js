@@ -31,6 +31,11 @@ app.get('/student', function (req, res) {
   res.send("Hey "+name)
 })
 
+app.get('/htmlfile', function (req, res) {
+  res.sendFile("hello.html",{ root: '.' })
+})
+
+
 app.listen(3000,function(req,res){
   console.log('Running on port number 3000')
 })

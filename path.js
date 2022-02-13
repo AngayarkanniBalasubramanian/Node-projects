@@ -1,0 +1,1 @@
+console.log("Current working directory: "+__dirname)

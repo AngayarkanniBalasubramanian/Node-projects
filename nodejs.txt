@@ -72,10 +72,15 @@ View - UI
 Controller - Router
 
 
-
+Crud-app
 In this project we have using multiple packages 
 they are:
 1. Express
 2. mongodb
 3. mongoose
 4. nodemon - for the changes
+
+Simple calculator:
+we have using 2 packages:
+1. express
+2. body-parser -  for getting input from form. (install using npm install body-parser)
