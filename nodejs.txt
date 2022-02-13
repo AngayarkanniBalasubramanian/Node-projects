@@ -1,0 +1,81 @@
+Fullstack = frontend + backend
+
+
+Node js
+It is not a language or a framework but runtime environment.
+where we can run javascript
+which is used to create stand alone applications.
+which can be used on the browser as well as server side = full stack development.
+
+nodejs - server side runtime
+express js - framework for developing web application
+npm - node package manager -  which gives all the dependent packages and modules for node js. There are millions of packages available in npm.
+
+node js - javascript runtime environment that uses v8 javascript engine.
+
+v8 - chrome
+
+we can run the javascript in the browser with the help of javascript engine which converts the js code to machine code.
+
+
+nodejs has some inbuilt modules:
+http 
+filesystem
+express
+upper-case
+cryptography, etc.
+
+
+npm:
+npmjs.com it is the page where you can find the dependencies, npm is now the part of github and github is the part of microsoft.
+
+
+javascript:
+frontend: Angular js, react js
+backend: node js
+Framework for web development: Express js like java - Spring MVC, python - Django
+
+
+REST API - Http methods
+GET 
+
+Ex: GET http://localhost:9000/students - to get all the students
+    GET http://localhost:9000/students/<id> - to get one particular student
+
+POST
+
+Ex: POST http://localhost:9000/saveStudent - to store the student details in database.
+
+PATCH - for update (small changes)
+PUT - also for update (huge amount of updation)
+DELETE 
+
+
+Create folder 
+go to file path 
+and type npm init
+if we want express install express using "npm install express"
+if we use mongodb -> npm install mongodb, npm install mongoose
+if we install nodemon -> we need not rerun the application everytime, when there is a small change.
+for all projects we have to install globally using -g: npm install -g nodemon --save-developing
+
+
+Every website has three things:
+1. good UI that's a view, 
+2. database object, the data model where we can store data
+3. And the controller which controls the routing for us.
+
+Every entities have different models
+MVC - Model View Controller
+Model - Schema
+View - UI
+Controller - Router
+
+
+
+In this project we have using multiple packages 
+they are:
+1. Express
+2. mongodb
+3. mongoose
+4. nodemon - for the changes
